@@ -1,11 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2020-06-21T12:31:42.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="FkUKhXAx9rtxRVXySsvH" version="13.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-21T15:14:13.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="BQETX8HWofVQiXO2CSLl" version="13.3.0" type="github">
   <diagram id="1VbTEHcm4TBLeY_fgvso" name="第 1 页">
     <mxGraphModel dx="706" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HbgKjThKOoSG9lWK9995-1" value="run" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="70" y="30" width="100" height="60" as="geometry" />
+        <mxCell id="HbgKjThKOoSG9lWK9995-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HbgKjThKOoSG9lWK9995-1" target="HbgKjThKOoSG9lWK9995-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-1" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;启动SpringApplication.&lt;/span&gt;run()&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="155" y="10" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HbgKjThKOoSG9lWK9995-2" target="HbgKjThKOoSG9lWK9995-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-2" value="&lt;pre style=&quot;font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt ; background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(3 , 3 , 3) ; font-family: &amp;#34;courier new&amp;#34; ; font-size: 9.8pt&quot;&gt;启动SpringApplicationRunListeners&lt;/span&gt;.starting()&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="426" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HbgKjThKOoSG9lWK9995-4" target="HbgKjThKOoSG9lWK9995-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-4" value="&lt;pre style=&quot;font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;生成ConfigurableEnvironment&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="320" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-8" value="&lt;pre style=&quot;font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;生成ConfigurableApplicationContext&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="650" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HbgKjThKOoSG9lWK9995-20" target="HbgKjThKOoSG9lWK9995-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-16" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;SpringApplication(ResourceLoader resourceLoader,&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt; Class&amp;lt;?&amp;gt;... primarySources)&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="112" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-20" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;this&lt;/span&gt;.setInitializers(&lt;span style=&quot;color: #0033b3&quot;&gt;this&lt;/span&gt;.getSpringFactoriesInstances&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;(ApplicationContextInitializer.&lt;span style=&quot;color: #0033b3&quot;&gt;class&lt;/span&gt;));&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;获取所有的ApplicationContextInitializer并初始化&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-21" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HbgKjThKOoSG9lWK9995-16" target="HbgKjThKOoSG9lWK9995-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="192" as="sourcePoint" />
+            <mxPoint x="240" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbgKjThKOoSG9lWK9995-23" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #0033b3&quot;&gt;this&lt;/span&gt;.setListeners(&lt;span style=&quot;color: #0033b3&quot;&gt;this&lt;/span&gt;.getSpringFactoriesInstances&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;(ApplicationListener.&lt;span style=&quot;color: #0033b3&quot;&gt;class&lt;/span&gt;));&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;获取所有的ApplicationListener并初始化&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="326" width="320" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
